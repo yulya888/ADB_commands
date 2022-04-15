@@ -1,0 +1,5 @@
+To take a screenshot- adb shell screencrap -p /sdcard/screen.png
+To save the screenshot to Desktop- adb pull /sdcard/screen.png
+To record the screen- adb shell screenrecord /sdcard/demo.mp4
+To save the screenrecording- adb pull /sdcard/demo.mp4
+To list the logs- adb logcat
